@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "./index.css";
+import Header from "header/Header";
 
 const App = () => (
   <div>
-    - App name : MFE-CONSUMER
-    <br />- Version : 1.0.0
-    <br />- Webpack 5
+    I'm MFE-CONSUMER 🙋‍♂️
+    <Header />
   </div>
 );
 
